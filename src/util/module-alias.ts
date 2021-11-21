@@ -3,7 +3,7 @@ import moduleAlias from 'module-alias';
 
 const files = path.resolve(__dirname, '../../');
 
-moduleAlias.addModuleAliases({
+moduleAlias.addAliases({
 	'@src': path.join(files, 'src'),
 	'@test': path.join(files, 'test')
 });
